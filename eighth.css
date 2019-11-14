@@ -1,0 +1,107 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 1.25em;
+	font-family:  Verdana;
+	margin: 0;
+}
+
+header {
+	diplay: inline-block;
+	background-color: black;
+	color: White;
+	width: 100%;
+}
+
+
+h1 {
+	vertical-align: top;
+	font-size: 3em;
+	margin: 20px 0 0 0;
+}
+
+h2 {
+	font-size:1em;
+}
+h3 {
+	font-size:1em;
+}
+h4 {
+	font-size:1em;
+}
+h5 {
+	font-size:1em;
+}
+.title {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.subtitle {
+	margin-top: 0px;
+	margine-left:30px;
+}
+
+aside > ul {
+	list-style-type : none;
+	backround-color : black;
+	width: 100%;
+	padding :0;
+	margin: 0;
+	text-align: center;
+}
+
+aside > ul > li {
+	background-color:white;
+	display: inline-block;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+a:hover {
+	background-color:#27B571;
+}
+
+.activeLink {
+	background-color: black;
+}
+
+.activeLink > a {
+	color: white;
+}
+
+article {
+	padding: 20px;
+	
+}
+
+article > img {
+	float:right;
+	
+}
+
+page-container{
+	position: relative;
+	min-height: 300vh;
+}
+content-wrap{
+	padding-bottom: 2.5rem;
+}
+footer {
+	position: absolute;
+	bottom: 40;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+footer > p {
+	padding-top: px;
+}
